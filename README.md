@@ -3,7 +3,7 @@ It is a practical application using LazyVGrid announced at WWDC2020. As soon as 
 It's a beta version, so you need to be aware that it may not work properly with the official release.
 
 <div align="center">
-    <img src="https://github.com/AkkeyLab/LazyGrid/blob/master/sample1.png?raw=true" width="320"/> | <img src="https://github.com/AkkeyLab/LazyGrid/blob/master/sample2.png?raw=true" width="320"/>
+    <img src="https://github.com/AkkeyLab/LazyGrid/blob/master/sample1.png?raw=true" width="320"/> <img src="https://github.com/AkkeyLab/LazyGrid/blob/master/sample2.png?raw=true" width="320"/>
 </div>
 
 # Installation
