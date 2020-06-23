@@ -1,0 +1,69 @@
+PODS:
+  - AKProcessIndicator (0.0.3)
+  - Alamofire (5.2.1)
+  - DefaultsKit (0.2.0)
+  - KeychainAccess (4.2.0)
+  - lottie-ios (3.1.8)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - Nuke (9.1.0)
+  - OAuthSwift (2.1.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - VueFlux (1.6.0)
+  - Wormholy (1.6.1)
+
+DEPENDENCIES:
+  - AKProcessIndicator
+  - DefaultsKit
+  - KeychainAccess
+  - lottie-ios
+  - Moya/RxSwift
+  - Nuke
+  - OAuthSwift
+  - RxCocoa
+  - RxSwift
+  - VueFlux
+  - Wormholy
+
+SPEC REPOS:
+  trunk:
+    - AKProcessIndicator
+    - Alamofire
+    - DefaultsKit
+    - KeychainAccess
+    - lottie-ios
+    - Moya
+    - Nuke
+    - OAuthSwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - VueFlux
+    - Wormholy
+
+SPEC CHECKSUMS:
+  AKProcessIndicator: 5f7653def0e40b6a7dae28b0f4bd88eb114fe90b
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  DefaultsKit: 6c767941b2c3fe34c4d70e300e6c3b80c94964dd
+  KeychainAccess: 3f760109aa99b05d0f231e28b22642da7153e38a
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Nuke: c97bf6006d31687cfa7c28507305143de27a4aa1
+  OAuthSwift: ab1675598273e04355e0282459c328e65c9ddacd
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  VueFlux: 76eb4aedb99d7215136ea9948125cbb6e1a1256e
+  Wormholy: 0fd599c7efb09bb96af8cdfbe81a716932caf67e
+
+PODFILE CHECKSUM: ef28945a6f8445ddd42a99e51b1f46549a189f53
+
+COCOAPODS: 1.8.4

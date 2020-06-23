@@ -1,0 +1,13 @@
+strings:
+  inputs: Betting/Resources/Localizable/en.lproj
+  filter: Localizable.strings
+  outputs:
+    - templateName: structured-swift4
+      output: Betting/Resources/Localizable/Localizable.swift
+xcassets:
+  - inputs: Betting/Resources/Assets/Assets.xcassets
+    outputs:
+      - templateName: swift4
+        output: Betting/Resources/Assets/Assets.swift
+        params:
+          enumName: Assets

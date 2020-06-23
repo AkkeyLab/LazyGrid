@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  Betting
+
+  Created by AKIO on 2020/06/23.
+  Copyright © 2020 AKIO. All rights reserved.
+*/
+
+"common.later" = "あとで";
+"common.sign_in" = "サインイン";
+"common.ok" = "OK";
+
+"unit.price" = "円";
+
+"button.sign_in.title" = "Flickr でサインイン";
+"button.show_favorite_photos.title" = "お気に入りを観る";
+"button.favorite.subscript" = "サインインすると写真をお気に入り登録できます！";
+"button.favorite.title" = "お気に入りに写真を登録";
+
+"alert.sign_in.title" = "Flickr でサインイン";
+"alert.sign_in.message" = "あなただけの写真管理が可能になります！";
+"alert.error.title" = "ごめんなさい";
+"alert.developer_error.message" = "申し訳ありませんが、運営にお問い合わせください";
+"alert.maintenance.message" = "現在メンテナンス中です。しばらく待ってからご利用ください";
+"alert.required_retry.message" = "通信に失敗しました。アプリの再起動をお試しください";
+"alert.network_error.message" = "通信に失敗しました。通信環境をご確認ください";
+"alert.sign_in_error.message" = "サインインに失敗しました。再度お試しください";
+"alert.can_not_add_favorite.message" = "この写真はお気に入り登録できません";
+"alert.owned_photo.message" = "自分で投稿した写真をお気に入り登録することはできません";
+"alert.already_add_favorite.message" = "既にお気に入り登録済みの写真です";
+"alert.success_favorite.title" = "登録完了";
+"alert.success_favorite.message" = "おめでとうございます！マイページからいつでも確認できるようになりました";

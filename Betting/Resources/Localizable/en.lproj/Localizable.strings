@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  Betting
+
+  Created by AKIO on 2020/06/23.
+  Copyright © 2020 AKIO. All rights reserved.
+*/
+
+"common.later" = "Later";
+"common.sign_in" = "Sign in";
+"common.ok" = "OK";
+
+"unit.price" = "JPY";
+
+"button.sign_in.title" = "Sign in with Flickr";
+"button.show_favorite_photos.title" = "My Favorite Photos";
+"button.favorite.subscript" = "Sign in to add your favorite photos!";
+"button.favorite.title" = "Add Photos to Favorites";
+
+"alert.sign_in.title" = "Sign in with Flickr";
+"alert.sign_in.message" = "You can manage your only photos!";
+"alert.error.title" = "Sorry";
+"alert.developer_error.message" = "We apologize, but please contact the management.";
+"alert.maintenance.message" = "currently undergoing maintenance. Please wait for a while before using.";
+"alert.required_retry.message" = "Communication failed. Please try restarting the app.";
+"alert.network_error.message" = "Communication failed. Please check the communication environment.";
+"alert.sign_in_error.message" = "Sign in failed. Please try again.";
+"alert.can_not_add_favorite.message" = "This photo cannot be registered as a favorite.";
+"alert.owned_photo.message" = "Photos posted by yourself cannot be registered as favorites.";
+"alert.already_add_favorite.message" = "It is a photo already registered as a favorite.";
+"alert.success_favorite.title" = "Completion of registration";
+"alert.success_favorite.message" = "Congratulations! You can always check from My Page.";
