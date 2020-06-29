@@ -25,30 +25,21 @@ struct PhotoCollectionView: View {
             VStack(alignment: .center, spacing: Env.vSpacing) {
                 Spacer()
                     .frame(width: geometry.size.width, height: Env.topSpaceHeight)
-                Rows(data: $data, geometry: geometry)
+                LazyVGrid(columns: columns, alignment: .center, spacing: Env.vSpacing) {
+                    ForEach((0..<data.count).map { GridIndex(id: $0) }) { row in
+                        ZStack {
+                            PhotoViewCell(
+                                url: URL(string: loadData(row: row.id)?.url ?? ""),
+                                title: loadData(row: row.id)?.title ?? ""
+                            )
+                            CellButtonView(data: loadData(row: row.id)!) // FIXME: optional
+                        }
+                            .frame(width: cellSize, height: cellSize)
+                    }
+                }
                     .frame(width: geometry.size.width)
                 Spacer()
                     .frame(width: geometry.size.width, height: Env.bottomSpaceHeight)
-            }
-        }
-    }
-}
-
-private struct Rows: View {
-    @Binding internal var data: [PhotoList.Photo]
-    internal let geometry: GeometryProxy
-
-    var body: some View {
-        LazyVGrid(columns: columns, alignment: .center, spacing: Env.vSpacing) {
-            ForEach((0..<data.count).map { GridIndex(id: $0) }) { row in
-                ZStack {
-                    PhotoViewCell(
-                        url: URL(string: loadData(row: row.id)?.url ?? ""),
-                        title: loadData(row: row.id)?.title ?? ""
-                    )
-                    CellButtonView(data: loadData(row: row.id)!) // FIXME: optional
-                }
-                    .frame(width: cellSize, height: cellSize)
             }
         }
     }
